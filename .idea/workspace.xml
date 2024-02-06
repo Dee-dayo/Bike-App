@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86d296a6-dc1a-46c5-ae8c-52b8f18088fb" name="Changes" comment="added more testt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bikeApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/bikeApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bikeAppTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/bikeAppTest.py" afterDir="false" />
-    </list>
+    <list default="true" id="86d296a6-dc1a-46c5-ae8c-52b8f18088fb" name="Changes" comment="added more testt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +36,7 @@
     "Python tests.Python tests for bikeAppTest.MyTestCase.test_accelerate_more_than_20_gear_becomes_two.executor": "Run",
     "Python tests.Python tests for bikeAppTest.MyTestCase.test_accelerate_when_bike_off.executor": "Run",
     "Python tests.Python tests for bikeAppTest.MyTestCase.test_bike_turns_on.executor": "Run",
+    "Python tests.Python tests for bikeAppTest.MyTestCase.test_gear_at_2_accelerate_goes_twice.executor": "Run",
     "Python tests.Python tests for bikeAppTest.MyTestCase.test_turn_bike_off_bike_turn_off.executor": "Run",
     "Python tests.Python tests in bikeAppTest.py.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -53,7 +50,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for bikeAppTest.MyTestCase.test_accelerate_more_than_20_gear_becomes_two">
+  <component name="RunManager">
     <configuration name="Python tests for bikeAppTest.MyTestCase.test_accelerate_bike" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="bikeApp" />
       <option name="ENV_FILES" value="" />
@@ -102,7 +99,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for bikeAppTest.MyTestCase.test_bike_turns_on" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for bikeAppTest.MyTestCase.test_gear_at_2_accelerate_goes_twice" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="bikeApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,7 +111,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;bikeAppTest.MyTestCase.test_bike_turns_on&quot;" />
+      <option name="_new_target" value="&quot;bikeAppTest.MyTestCase.test_gear_at_2_accelerate_goes_twice&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -136,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for bikeAppTest.MyTestCase.test_gear_at_2_accelerate_goes_twice" />
         <item itemvalue="Python tests.Python tests for bikeAppTest.MyTestCase.test_accelerate_more_than_20_gear_becomes_two" />
         <item itemvalue="Python tests.Python tests for bikeAppTest.MyTestCase.test_accelerate_when_bike_off" />
         <item itemvalue="Python tests.Python tests for bikeAppTest.MyTestCase.test_accelerate_bike" />
         <item itemvalue="Python tests.Python tests for bikeAppTest.MyTestCase.test_turn_bike_off_bike_turn_off" />
-        <item itemvalue="Python tests.Python tests for bikeAppTest.MyTestCase.test_bike_turns_on" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +159,7 @@
       <workItem from="1707193437674" duration="4186000" />
       <workItem from="1707203076975" duration="185000" />
       <workItem from="1707203402184" duration="117000" />
-      <workItem from="1707203631029" duration="636000" />
+      <workItem from="1707203631029" duration="1645000" />
     </task>
     <task id="LOCAL-00001" summary="created first function">
       <option name="closed" value="true" />
@@ -180,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707197010067</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added more testt">
+      <option name="closed" value="true" />
+      <created>1707205130934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707205130934</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +197,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="added more testt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bikeApp$.coverage" NAME=" Coverage Results" MODIFIED="1707204250439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bikeApp$.coverage" NAME=" Coverage Results" MODIFIED="1707204968723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
