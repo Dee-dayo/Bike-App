@@ -1,8 +1,11 @@
 import unittest
+import bikeApp
+
 
 class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)  # add assertion here
+    def test_bike_turns_on(self):
+        my_bike = bikeApp.Bike()
+        self.assertFalse(my_bike.check_status())
 
-if __name__ == '__main__':
-    unittest.main()
+        my_bike.start()
+        self.assertTrue(my_bike.check_status())
