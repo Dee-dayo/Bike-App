@@ -39,3 +39,28 @@ class MyTestCase(unittest.TestCase):
 
         my_bike.accelerate()
         self.assertEqual(0, my_bike.check_speedometer())
+
+    def test_accelerate_more_than_20_gear_becomes_two(self):
+        my_bike = bikeApp.Bike()
+        my_bike.start()
+        for count in range(20):
+            my_bike.accelerate()
+        self.assertEqual(20, my_bike.check_speedometer())
+        self.assertEqual(1, my_bike.check_gear())
+
+        my_bike.accelerate()
+        my_bike.accelerate()
+        self.assertEqual(23, my_bike.check_speedometer())
+        self.assertEqual(2, my_bike.check_gear())
+
+    def test_gear_at_2_accelerate_goes_twice(self):
+        my_bike = bikeApp.Bike()
+        my_bike.start()
+        for count in range(22):
+            my_bike.accelerate()
+        self.assertEqual(23, my_bike.check_speedometer())
+
+        my_bike.accelerate()
+        my_bike.accelerate()
+        self.assertEqual(27, my_bike.check_speedometer())
+        self.assertEqual(2, my_bike.check_gear())
