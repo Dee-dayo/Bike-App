@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86d296a6-dc1a-46c5-ae8c-52b8f18088fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bikeApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bikeApp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bikeAppTest.py" afterDir="false" />
+    <list default="true" id="86d296a6-dc1a-46c5-ae8c-52b8f18088fb" name="Changes" comment="created first function">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bikeApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/bikeApp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bikeAppTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/bikeAppTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +36,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for bikeAppTest.MyTestCase.test_accelerate_bike.executor": "Run",
+    "Python tests.Python tests for bikeAppTest.MyTestCase.test_accelerate_when_bike_off.executor": "Run",
     "Python tests.Python tests for bikeAppTest.MyTestCase.test_bike_turns_on.executor": "Run",
+    "Python tests.Python tests for bikeAppTest.MyTestCase.test_turn_bike_off_bike_turn_off.executor": "Run",
     "Python tests.Python tests in bikeAppTest.py.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,6 +53,38 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="Python tests for bikeAppTest.MyTestCase.test_accelerate_bike" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="bikeApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;bikeAppTest.MyTestCase.test_accelerate_bike&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for bikeAppTest.MyTestCase.test_accelerate_when_bike_off" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="bikeApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;bikeAppTest.MyTestCase.test_accelerate_when_bike_off&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for bikeAppTest.MyTestCase.test_bike_turns_on" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="bikeApp" />
       <option name="ENV_FILES" value="" />
@@ -71,8 +101,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for bikeAppTest.MyTestCase.test_turn_bike_off_bike_turn_off" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="bikeApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;bikeAppTest.MyTestCase.test_turn_bike_off_bike_turn_off&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for bikeAppTest.MyTestCase.test_accelerate_when_bike_off" />
+        <item itemvalue="Python tests.Python tests for bikeAppTest.MyTestCase.test_accelerate_bike" />
+        <item itemvalue="Python tests.Python tests for bikeAppTest.MyTestCase.test_turn_bike_off_bike_turn_off" />
         <item itemvalue="Python tests.Python tests for bikeAppTest.MyTestCase.test_bike_turns_on" />
       </list>
     </recent_temporary>
@@ -92,14 +141,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707193420768</updated>
-      <workItem from="1707193437674" duration="1442000" />
+      <workItem from="1707193437674" duration="3413000" />
     </task>
+    <task id="LOCAL-00001" summary="created first function">
+      <option name="closed" value="true" />
+      <created>1707195178221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707195178221</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created first function" />
+    <option name="LAST_COMMIT_MESSAGE" value="created first function" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bikeApp$.coverage" NAME=" Coverage Results" MODIFIED="1707194857164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bikeApp$.coverage" NAME=" Coverage Results" MODIFIED="1707196861548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
