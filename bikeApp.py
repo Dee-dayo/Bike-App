@@ -18,12 +18,15 @@ class Bike:
 
     def accelerate(self):
         if self.is_on:
-            if self.check_speedometer() >= 0 and self.check_speedometer() <= 20:
+            if 0 <= self.check_speedometer() <= 20:
                 self.speedometer += 1
                 self.gear = 1
-            elif self.check_speedometer() >= 21 and self.check_speedometer() <= 30:
+            elif 21 <= self.check_speedometer() <= 30:
                 self.speedometer += 2
                 self.gear = 2
+            elif 31 <= self.check_speedometer() <= 40:
+                self.speedometer += 3
+                self.gear = 3
 
     def check_gear(self):
         return self.gear
